@@ -111,8 +111,8 @@ class TiledTileSet
 			
 			if (tileWidth > 0 && tileHeight > 0)
 			{
-				numRows = cast(imgWidth / tileWidth);
-				numCols = cast(imgHeight / tileHeight);
+				numCols = cast(imgWidth / tileWidth);
+				numRows = cast(imgHeight / tileHeight);
 				numTiles = numRows * numCols;
 			}
 		}
